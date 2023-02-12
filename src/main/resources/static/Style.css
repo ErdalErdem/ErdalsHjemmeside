@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: peachpuff;
+    background-image: url("https://storage.googleapis.com/pod_public/1300/128278.jpg");
 }
 
 .container {
@@ -9,6 +9,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 20px;
+    color: black;
+
 
     display: grid;
 
@@ -17,19 +19,21 @@ body {
 
     gap: 10px;
 
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 .container div {
     padding: 10px;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
 .header {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     font-size: 70px;
+    color: black;
+    background-image: url("https://images.photowall.com/products/60721/white-marble-3.jpg?h=699&q=85");
 
 
 }
@@ -38,31 +42,57 @@ body {
     grid-row-start: 2;
     grid-row-end: 4;
     font-size: 25px;
+    background-image: url("https://images.photowall.com/products/60721/white-marble-3.jpg?h=699&q=85");
 
 }
 
 .footer {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
+    color: white;
+    background-image: url("https://images.photowall.com/products/60721/white-marble-3.jpg?h=699&q=85");
 
 }
 
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 17px;
+    color: black;
+
 }
 
 ol {
     font-family: 'Quicksand', sans-serif;
     font-size: 17px;
+    color: black;
+
 }
 
 h4 {
     font-family: 'Quicksand', sans-serif;
     font-size: 17px;
+    color: black;
+
 }
 
 a {
     font-family: 'Quicksand', sans-serif;
     font-size: 17px;
+color: black;
+;
 }
+
+li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: black;
+
+}
+
+main {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+
+
+
